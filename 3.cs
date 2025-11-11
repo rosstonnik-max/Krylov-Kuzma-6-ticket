@@ -13,7 +13,7 @@ namespace UnifiedProgram
                 Console.WriteLine("=== Главное меню ===");
                 Console.WriteLine("1. Улучшенный калькулятор");
                 Console.WriteLine("2. Рецепт: Простой яичный бутерброд");
-                Console.WriteLine("3. Анализатор постов (на основе книги Толкина)");
+                Console.WriteLine("3. ГЛАВА ВЛАСТЕЛИН КОЛЕЦ ");
                 Console.WriteLine("0. Выход");
                 Console.Write("\nВыберите пункт меню (0–3): ");
 
@@ -138,7 +138,7 @@ namespace UnifiedProgram
         {
             Console.Clear();
             Console.WriteLine("Загрузка списка постов...");
-            const string BookUrl = "https://lib.ru/TOLKIEN/hran_1.txt";
+            const string BookUrl = "https://www.booksite.ru/localtxt/tol/kin/tolkin_dj/vla/ste/lin/vlastelin_kolec/1.htm";
             string fullText;
 
             try
