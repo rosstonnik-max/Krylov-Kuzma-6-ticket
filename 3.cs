@@ -47,7 +47,7 @@ namespace UnifiedProgram
             }
         }
 
-        // === 1. Улучшенный калькулятор ===
+       
         static void RunCalculator()
         {
             Console.Clear();
@@ -107,7 +107,7 @@ namespace UnifiedProgram
             Console.ReadKey();
         }
 
-        // === 2. Рецепт бутерброда ===
+     
         static void ShowRecipe()
         {
             Console.Clear();
@@ -133,7 +133,7 @@ namespace UnifiedProgram
             Console.ReadKey();
         }
 
-        // === 3. Анализатор постов ===
+
         static async Task RunPostAnalyzer()
         {
             Console.Clear();
